@@ -1,0 +1,482 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/*/ Main body page color /*/
+
+body {
+    background-color: #ffffff;
+}
+
+@media (max-width: 767px) {
+    body {
+      background-color: #ffffff;
+    }
+  } 
+
+/*/ Header Section /*/
+
+#header {
+    background-color: #ffffff;
+    padding: 100px 0;
+  }
+  
+  @media (max-width: 767px) {
+    #header {
+      background-color: #ffffff;
+      padding: 40px 0;
+    }
+  }
+
+
+/*/ Dark bg Section /*/
+
+#dark-bg {
+    background-color: #1fbb99;
+    padding: 100px 0;
+  }
+  
+  @media (max-width: 767px) {
+    #dark-bg {
+      background-color: #1fbb99;
+      padding: 40px 0;
+    }
+  }  
+
+/*/ About Section /*/
+
+#about {
+    background-color: #ffffff;
+    padding: 100px 0;
+  }
+  
+  @media (max-width: 767px) {
+    #about {
+      background-color: #ffffff;
+      padding: 40px 0;
+    }
+  }
+
+/*/ Footer Section /*/
+
+#footer {
+    background-color: #0A3937;
+    padding: 100px 0;
+  }
+  
+  @media (max-width: 767px) {
+    #footer {
+      background-color: #0A3937;
+      padding: 40px 0;
+    }
+  }
+
+
+
+/*/ image section /*/
+
+.image-size {
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .image-size {
+        padding-top: 40px;
+    }
+  }
+
+
+/*/ image icon section /*/
+
+.image-icon {
+    width: 10%;
+}
+
+@media (max-width: 767px) {
+    .image-icon {
+        padding-top: 40px;
+    }
+  }  
+
+
+
+/*/ fonts section /*/
+
+
+/*/ HEADER TEXT /*/
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*/ HEADER TEXT NORMAL /*/
+.h1-normal {
+    font-weight: 700;
+    font-size: 90px;
+    color: #1fbb99;
+}
+
+@media (max-width: 767px) {
+    .h1-normal {
+        font-weight: 700;
+        font-size: 40px;
+        color: #1fbb99;
+    }
+  }
+
+/*/ HEADER TEXT FOR DARK BACKGROUND /*/
+.h1-dark {
+    font-weight: 700;
+    font-size: 90px;
+    color: #ffffff;
+}
+
+@media (max-width: 767px) {
+    .h1-dark {
+        font-weight: 700;
+        font-size: 40px;
+        color: #ffffff;
+    }
+  }
+
+
+/*/ HEADER TEXT BOLD /*/
+.h1-bold {
+    font-weight: 700;
+    font-size: 90px;
+    color: #0A3937;
+}
+
+@media (max-width: 767px) {
+    .h1-bold {
+        font-weight: 700;
+        font-size: 40px;
+        color: #0A3937;
+    }
+  }  
+
+
+/*/ PARAGRAPH TEXT NORMAL /*/  
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.p-normal {
+    font-weight: 400;
+    font-size: 30px;
+    color: #0A3937;
+}
+@media (max-width: 767px) {
+    .p-normal {
+        font-weight: 400;
+        font-size: 20px;
+        letter-spacing: 1px;
+        color: #0A3937;
+    }
+  }
+
+/*/ PARAGRAPH TEXT FOR DARK BACKGROUND /*/ 
+
+.p-dark {
+    font-weight: 500;
+    font-size: 40px;
+    color: #0A3937;
+    letter-spacing: 5px;
+}
+@media (max-width: 767px) {
+    .p-dark {
+        font-weight: 500;
+        font-size: 20px;
+        letter-spacing: 2px;
+        color: #0A3937;
+    }
+  }
+
+/*/ PARAGRAPH TEXT FOR CAPITALISED SECTION HEADING /*/ 
+
+.p-topic {
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #0A3937;
+}
+@media (max-width: 767px) {
+    .p-topic {
+        padding-top: 40px;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 2px;
+        color: #0A3937;
+    }
+  }  
+
+
+/*/ PARAGRAPH TEXT FOR FOOTER SECTION /*/ 
+
+.p-white {
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+@media (max-width: 767px) {
+    .p-white {
+        padding-top: 20px;
+        font-weight: 400;
+        font-size: 20px;
+        letter-spacing: 1px;
+        color: #ffffff;
+    }
+  }  
+
+
+
+/*/ PARAGRAPH TEXT FOR CONTACT FOOTER SECTION /*/ 
+
+.p-contact {
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+@media (max-width: 767px) {
+    .p-contact {
+        padding-top: 20px;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 1px;
+        color: #ffffff;
+    }
+  }   
+
+
+/*/ BUTTON NORMAL for white background /*/
+
+.button-normal {
+    padding-top: 60px;
+  }
+  
+  .button {
+    width: 300px;
+    height: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #1fbb99;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(31, 187, 153, 40%);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+  .button:hover {
+    background-color: #ffffff;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #000000;
+    transform: translateY(-7px);
+  }
+
+
+/*/ BUTTON NORMAL ends here /*/
+
+
+/*/ BUTTON DARK for dark background /*/
+
+.button-dark {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button-dark-bg {
+    width: 300px;
+    height: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #0A3937;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(31, 187, 153, 60%);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+  .button-dark-bg:hover {
+    background-color: #ffffff;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #000000;
+    transform: translateY(-7px);
+  }
+
+
+/*/ BUTTON DARK ends here /*/
+
+
+/*/ COLUMN ALIGNMENT /*/
+
+
+/*/ Features Section /*/
+
+#features-left {
+    background-color: #ffffff;
+    padding: 100px 0;
+  }
+  
+  @media (max-width: 767px) {
+    #features-left {
+      background-color: #ffffff;
+      padding: 40px 0;
+      text-align: center;
+    }
+  }
+
+  #features-right {
+    background-color: #ffffff;
+    padding: 100px 0;
+    text-align: right;
+  }
+  
+  @media (max-width: 767px) {
+    #features-right {
+      background-color: #ffffff;
+      padding: 40px 0;
+      text-align: center;
+    }
+  }
+
+
+
+/*/ FOOTER COLUMN /*/
+
+@media (max-width: 767px) {
+    .footer-contact {
+        text-align: center;
+    }
+  }
+
+
+/*/ SOCIAL MEDIA ICONS SECTIONS START /*/
+
+.social {
+    display: inline-block;
+    position:absolute;
+    top:80%;
+    right:-35%;
+    -ms-transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+  }
+
+  @media (max-width: 767px) {
+    .social {
+        display: inline-block;
+        position: relative;;
+        margin-top: 10%;
+    }
+  }
+
+  
+  /* Social Media Icons */
+  
+  .social a {
+    color:#fff;
+    background: #1fbb99;
+    border-radius:4px;
+    text-align:center;
+    text-decoration:none;
+    font-family:fontawesome;
+    position: relative;
+    display: inline-block;
+    width:50px;
+    height:50px;
+    padding-top:12px;
+    margin:0 2px;
+    -o-transition:all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+     -webkit-font-smoothing: antialiased;
+  }
+  
+  .social a:hover {
+    background: #ffffff;
+  }
+  
+  /* pop-up text */
+  
+  .social a span {
+    color:#666;
+    position:absolute;
+    font-family:sans-serif;
+    bottom:0;
+    left:-25px;
+    right:-25px;
+    padding:5px 7px;
+    z-index:-1;
+    font-size:14px;
+    border-radius:2px;
+    background:#fff;
+    visibility:hidden;
+    opacity:0;
+    -o-transition:all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  /* pop-up text arrow */
+  
+  .social a span:before {
+    content:'';
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    position:absolute;
+    bottom:-5px;
+    left:40px;
+  }
+  
+  /* text pops up when icon is in hover state */
+  
+  .social a:hover span {
+    bottom:50px;
+    visibility:visible;
+    opacity:1;
+  }
+  
+  /* font awesome icons */
+  
+  /* Facebook */
+  .social a:nth-of-type(1):before {
+  content:'\f09a'; 
+  }
+  /* Twitter */
+  .social a:nth-of-type(2):before {
+  content:'\f099';
+  }
+  /* Instagram */
+  .social a:nth-of-type(3):before {
+  content:'\f16d';
+  }
+  /* Google Play */
+  .social a:nth-of-type(4):before {
+  content:'\f17b ';
+  }
+  /* Dribbble */
+  .social a:nth-of-type(5):before {
+  content:'\f179';
+  }
+
+  /*/ SOCIAL MEDIA ICONS SECTIONS END /*/
