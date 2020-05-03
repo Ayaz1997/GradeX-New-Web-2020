@@ -172,6 +172,19 @@ p {
     }
   }
 
+  .p-black {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+@media (max-width: 767px) {
+    .p-black {
+        font-weight: 400;
+        font-size: 20px;
+        color: #000000;
+    }
+  }
+
 /*/ PARAGRAPH TEXT FOR DARK BACKGROUND /*/ 
 
 .p-dark {
@@ -351,6 +364,20 @@ p {
       background-color: #ffffff;
       padding: 40px 0;
       text-align: center;
+    }
+  }
+
+  #privacy {
+    background-color: #ffffff;
+    padding: 100px 0;
+    text-align: left;
+  }
+  
+  @media (max-width: 767px) {
+    #privacy {
+      background-color: #ffffff;
+      padding: 40px 0;
+      text-align: left;
     }
   }
 
