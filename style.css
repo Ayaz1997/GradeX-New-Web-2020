@@ -15,6 +15,7 @@ html {
 
 body {
     background-color: #ffffff;
+    padding-top: 100px;
 }
 
 @media (max-width: 767px) {
@@ -527,10 +528,144 @@ p {
 
   /*/ TEXT RETYPE /*/
 
-  .navbar-color {
-    background-color: transparent;
+
+/*/ NAVIGATION BAR /*/
+#mainNav {
+  border-bottom: 1px solid #0A3937;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 40px;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
-.navbar-color.scrolled {
-  background-color: #1fbb99;
+#mainNav .navbar-eth {
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  color: #525252;
 }
+
+#mainNav .navbar-eth:focus,
+#mainNav .navbar-eth:hover {
+  color: #fff;
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  color: #1fbb99;
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
+  color: #fff;
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
+  color: #1fbb99 !important;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active:hover {
+  background-color: transparent;
+}
+
+
+#mainNav .navbar-toggler {
+  background-color: #0A3937;
+  border-color: #1fbb99;
+}
+
+@media (max-width: 991px) {
+  #mainNav .navbar-nav {
+    margin-top: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    border-color: transparent;
+    background-color: transparent;
+  }
+
+  #mainNav .navbar-eth {
+    color: #1fbb99;
+  }
+
+  #mainNav .navbar-eth:focus,
+  #mainNav .navbar-eth:hover {
+    color: #0A3937;
+  }
+
+  #mainNav .navbar-nav>li.nav-item>a.nav-link {
+    padding: 0.5rem 1rem;
+  }
+
+  #mainNav .navbar-nav>li.nav-item>a.nav-link,
+  #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
+    color: #000000;
+  }
+
+  #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,
+  #mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
+    color: #0A3937;
+  }
+
+  #mainNav.navbar-shrink {
+    background: #0A3937;
+    opacity: 0.8;
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
+    margin: 0;
+  }
+
+  #mainNav.navbar-shrink .navbar-eth {
+    color: #0A3937;
+  }
+
+  #mainNav.navbar-shrink .navbar-eth:focus,
+  #mainNav.navbar-shrink .navbar-eth:hover {
+    color: #203260;
+  }
+
+  #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link,
+  #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus {
+    color: #1fbb99;
+  }
+
+  #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover,
+  #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover {
+    color: #0A3937;
+  }
+}
+
+@media (max-width: 992px) {
+  #mainNav {
+    padding: 32px 8px 8px 8px;
+    margin-top: 0;
+  }
+}
+
+.logo-dark {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .logo-normal{
+    display: none;
+  }
+  .logo-dark {
+    display: block;
+  }
+  #mainNav {
+    background-color: #0A3937;
+    opacity: 0.95;
+    margin-top: -20px;
+  }
+}
+
+/*/ NAVIGATION BAR /*/
