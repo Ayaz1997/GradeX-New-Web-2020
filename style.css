@@ -507,3 +507,11 @@ p {
   }
 
   /*/ SOCIAL MEDIA ICONS SECTIONS END /*/
+
+/*/ TEXT RETYPE /*/
+  #retype{
+    color: #0A3937;
+    border-right: solid 0.1em #1fbb99;
+  }
+
+  /*/ TEXT RETYPE /*/
