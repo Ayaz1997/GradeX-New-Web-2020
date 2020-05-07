@@ -1,5 +1,16 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
+html {
+  scroll-behavior: smooth;
+}
+
+
+@media (max-width: 767px) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
 /*/ Main body page color /*/
 
 body {
@@ -124,7 +135,7 @@ h1 {
 /*/ HEADER TEXT FOR DARK BACKGROUND /*/
 .h1-dark {
     font-weight: 700;
-    font-size: 90px;
+    font-size: 85px;
     color: #ffffff;
 }
 
@@ -515,3 +526,11 @@ p {
   }
 
   /*/ TEXT RETYPE /*/
+
+  .navbar-color {
+    background-color: transparent;
+}
+
+.navbar-color.scrolled {
+  background-color: #1fbb99;
+}
