@@ -1,8 +1,5 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
-html {
-  scroll-behavior: smooth;
-}
 
 
 @media (max-width: 767px) {
@@ -34,7 +31,8 @@ body {
   @media (max-width: 767px) {
     #header {
       background-color: #ffffff;
-      padding: 40px 0;
+      padding: 60px 0;
+      text-align: center;
     }
   }
 
@@ -132,6 +130,22 @@ h1 {
         color: #1fbb99;
     }
   }
+
+
+  /*/ HEADER TEXT FOR LANDING PAGE /*/
+.h1-main {
+  font-weight: 700;
+  font-size: 90px;
+  color: #1fbb99;
+}
+
+@media (max-width: 767px) {
+  .h1-main {
+      font-weight: 700;
+      font-size: 60px;
+      color: #1fbb99;
+  }
+}
 
 /*/ HEADER TEXT FOR DARK BACKGROUND /*/
 .h1-dark {
@@ -359,6 +373,7 @@ p {
   
   @media (max-width: 767px) {
     #features-left {
+      display: none;
       background-color: #ffffff;
       padding: 40px 0;
       text-align: center;
@@ -393,6 +408,17 @@ p {
     }
   }
 
+
+  #save-mobile {
+    display: none;
+  }
+
+  @media (max-width: 767px) {
+    #save-mobile {
+      display: inline;
+      text-align: center;
+    }
+  }
 
 
 /*/ FOOTER COLUMN /*/
