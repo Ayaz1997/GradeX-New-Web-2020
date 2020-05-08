@@ -15,43 +15,44 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <!-- Head End -->
 <!-- Body Start -->
 <body>
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light static-top">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">
-            <img src="images/gradex-logo-1.png" style="width: 200px;" alt="">
-          </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+      <a class="navbar-eth js-scroll-trigger" href="index.html">
+          <img src="images/logo-light.png" class="logo-normal" style="width: 200px;" alt="gradex logo"/>
+          <img src="images/logo-light.png" class="logo-dark" style="width: 200px;" alt="gradex logo"/>
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+          data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link a-font" href="index.html">Home</a>
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" title="About" href="#about">About</a>
               </li>
-          <li class="nav-item">
-            <a class="nav-link a-font" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link a-font" href="#">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link a-font" href="#">Team</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link a-font" href="privacy.html">Privacy Policy
-                  <span class="sr-only">(current)</span>
-                </a>
-          </li>
-        </ul>
+              
+               <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" title="Schedule" href="#footer">Contact</a>
+              </li>
+                  
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" title="Events" href="#">Team</a>
+            </li>
+              <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" title="Speakers" href="privacy.html">Privacy Policy</a>
+              </li>
+          </ul>
       </div>
-    </div>
-  </nav>
+  </div>
+</nav>
 <!-- Navigation -->
 
 <!--Header Section Start-->
@@ -103,7 +104,39 @@
   </section>
   <!--Privacy Policy End-->
 
-  
+  <!--FOOTER START-->
+<section id="footer">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-4 col-12">
+            <img src="images/logo-light.png" class="image-size">
+            <p class="p-white">GradeX is India's one of the first Educational platform to provide UG Courses.</p>
+          </div>
+
+          <div class="col-lg-4 col-12">
+            
+          </div>
+
+          <div class="col-lg-4 col-12" style="text-align: right">
+            <div class="footer-contact">
+            <p class="p-contact">Get in touch with us at</p>
+            <p class="p-white">contact@gradex.app</p>
+          </div>
+
+            <div class="social">
+              <a href="#"><span>Facebook</span></a>
+              <a href="#"><span>Twitter</span></a>
+              <a href="#"><span>Instagram</span></a>
+              <a href="https://play.google.com/store/apps/details?id=com.gradex.grade_x"><span>Google Play</span></a>
+              <a href="https://play.google.com/store/apps/details?id=com.gradex.grade_x"><span>App Store</span></a>
+            </div>
+            <br>
+            <br>
+          </div>
+        </div>
+      </div>
+    </section>
+<!--FOOTER SECTION--> 
 
 
 
