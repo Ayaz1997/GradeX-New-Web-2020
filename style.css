@@ -700,4 +700,35 @@ p {
 
 /*/ NAVIGATION BAR /*/
 
+/* * banner start */
+.banner {
+  /* padding-top: 5px;
+  padding-bottom: 3px;
+  box-sizing: border-box !important;
+  min-width: 100%;
+  /* background-color: #05c46b; */
+  /* background-color: #3f51b5;
+  /* position: fixed; */
+  position: relative;
+  margin-top: -100px;
+  height: 40px;
+  background-color: #1fbb99;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #fff;
+  
+}
+
+@media (max-width: 500px) {
+  .banner {
+    margin-top: -12px;
+    font-size: 12px;
+    z-index: -1;
+  }
+}
+
+/* *banner end */
+
 
