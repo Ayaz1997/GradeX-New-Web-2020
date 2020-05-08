@@ -1,0 +1,14 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100">
+  <title>logo-300x100px</title>
+  <g>
+    <g style="isolation: isolate">
+      <text transform="translate(-1.42 72.55) scale(1.05 1)" style="isolation: isolate;font-size: 72.32401275634766px;fill: #1fbb99;font-family: JosefinSans-Regular, Josefin Sans;letter-spacing: 0.060000506311644504em">G</text>
+      <text transform="translate(60.39 72.55) scale(1.05 1)" style="isolation: isolate;font-size: 72.32401275634766px;fill: #ccc;font-family: JosefinSans-Regular, Josefin Sans;letter-spacing: 0.05000149088247788em">r</text>
+      <text transform="translate(92.82 72.55) scale(1.05 1)" style="isolation: isolate;font-size: 72.32401275634766px;fill: #ccc;font-family: JosefinSans-Regular, Josefin Sans;letter-spacing: 0.060000506311644504em">ade</text>
+    </g>
+    <g>
+      <polygon points="227.22 27.36 254.41 56.28 298.57 5.4 253.51 36.54 227.22 27.36" style="fill: gray"/>
+      <polygon points="227.22 94.6 272.28 63.35 298.57 72.11 271.13 43.51 227.22 94.6" style="fill: #1fbb99"/>
+    </g>
+  </g>
+</svg>
