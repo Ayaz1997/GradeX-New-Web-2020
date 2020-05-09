@@ -266,6 +266,25 @@ p {
     }
   }  
 
+  .p-center {
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+@media (max-width: 767px) {
+    .p-center {
+      text-align: center;
+        padding-top: 20px;
+        font-weight: 400;
+        font-size: 20px;
+        letter-spacing: 1px;
+        color: #ffffff;
+    }
+  }  
+
 
 
 /*/ PARAGRAPH TEXT FOR CONTACT FOOTER SECTION /*/ 
